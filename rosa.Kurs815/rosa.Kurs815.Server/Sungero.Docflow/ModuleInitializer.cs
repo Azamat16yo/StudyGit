@@ -21,12 +21,12 @@ namespace rosa.Kurs815.Module.Docflow.Server
     public static void CreateAutoNumberingOfMemoStage()
     {
       InitializationLogger.DebugFormat("Init: Create stage for automatic setting the contract status.");
-      if (rosa.Kurs815.ApprovalFunctionStageBases.GetAll().Any())
-        return;
-      var stage = rosa.Kurs815.ApprovalFunctionStageBases.Create();
-      stage.Name = "Установка состояния договора";
-      stage.TimeoutInHours = 4;
-      stage.Save();
+      //if (rosa.Kurs815.ApprovalFunctionStageBases.GetAll().Any())
+      //  return;
+      //var stage = rosa.Kurs815.ApprovalFunctionStageBases.Create();
+      //stage.Name = "Установка состояния договора";
+      //stage.TimeoutInHours = 4;
+      //stage.Save();
     }
   }
 }
