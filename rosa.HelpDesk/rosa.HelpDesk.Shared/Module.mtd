@@ -1,0 +1,174 @@
+{
+  "$type": "Sungero.Metadata.ModuleMetadata, Sungero.Metadata",
+  "NameGuid": "fe2cf533-5224-427f-9c47-6febbbc2d6ea",
+  "Name": "HelpDesk",
+  "AsyncHandlers": [],
+  "ClientAssemblyName": "rosa.HelpDesk.Client",
+  "ClientBaseAssemblyName": "rosa.HelpDesk.ClientBase",
+  "ClientBaseNamespace": "rosa.HelpDesk.ClientBase",
+  "ClientNamespace": "rosa.HelpDesk.Client",
+  "Code": "HelpDes",
+  "CompanyCode": "rosa",
+  "Cover": {
+    "NameGuid": "cd39bb41-8982-496a-ae87-df5797a7dd88",
+    "Actions": [],
+    "Background": null,
+    "Footer": {
+      "NameGuid": "bb5fedb2-ae16-4403-a99e-af8139928646",
+      "BackgroundPosition": "Stretch"
+    },
+    "Groups": [],
+    "Header": {
+      "NameGuid": "81194740-2134-4c74-b32c-72cfca0d30e2",
+      "BackgroundPosition": "Stretch"
+    },
+    "RemoteControls": [],
+    "Tabs": []
+  },
+  "Dependencies": [
+    {
+      "Id": "07deba91-2299-4538-9a13-6c26b35921f1",
+      "IsSolutionModule": true,
+      "MaxVersion": "",
+      "MinVersion": ""
+    },
+    {
+      "Id": "92491aa6-c4df-4f46-a807-ebdd337bda74",
+      "MaxVersion": "",
+      "MinVersion": "1.1.0.0"
+    },
+    {
+      "Id": "df83a2ea-8d43-4ec4-a34a-2e61863014df",
+      "MaxVersion": "",
+      "MinVersion": "4.9.149.0"
+    }
+  ],
+  "ExplorerTreeOrder": [
+    {
+      "ItemId": "84aec56b-4d86-4081-9d8a-9bcc3b9ed506",
+      "PreviousItemId": "7ad62df0-fd9f-442a-bf66-6244651d1e9b"
+    },
+    {
+      "ItemId": "655cd5e9-1bdd-4747-ba47-43876994243f",
+      "PreviousItemId": "84aec56b-4d86-4081-9d8a-9bcc3b9ed506"
+    },
+    {
+      "ItemId": "0ef4b19e-145c-4b28-b6ae-d9e0c3c812cf",
+      "PreviousItemId": "655cd5e9-1bdd-4747-ba47-43876994243f"
+    },
+    {
+      "ItemId": "e77c8ce4-46ea-48c7-bda4-2fc219fedbac",
+      "PreviousItemId": "0ef4b19e-145c-4b28-b6ae-d9e0c3c812cf"
+    },
+    {
+      "ItemId": "c18f5e6f-beeb-4625-b3e9-559afd541cce",
+      "PreviousItemId": "e77c8ce4-46ea-48c7-bda4-2fc219fedbac"
+    },
+    {
+      "ItemId": "cb8f6684-b91b-42cd-858c-07de7ff62df8",
+      "PreviousItemId": "c18f5e6f-beeb-4625-b3e9-559afd541cce"
+    },
+    {
+      "ItemId": "ba410420-b64c-41ca-8ed8-1274bdc40795",
+      "PreviousItemId": "cb8f6684-b91b-42cd-858c-07de7ff62df8"
+    },
+    {
+      "ItemId": "60f8af31-db3c-4f23-b2a0-b6a8ca228efb",
+      "PreviousItemId": "ba410420-b64c-41ca-8ed8-1274bdc40795"
+    },
+    {
+      "ItemId": "ed4791d3-8f76-4174-a52b-ad82b2a12647",
+      "PreviousItemId": "60f8af31-db3c-4f23-b2a0-b6a8ca228efb"
+    },
+    {
+      "ItemId": "1e7debe8-faa9-4326-b1dd-f03e285b5fb8",
+      "PreviousItemId": "ed4791d3-8f76-4174-a52b-ad82b2a12647"
+    },
+    {
+      "ItemId": "71cc4a5a-a6ac-48dd-9131-ed4033be7dab",
+      "PreviousItemId": "1e7debe8-faa9-4326-b1dd-f03e285b5fb8"
+    }
+  ],
+  "HandledEvents": [
+    "InitializingServer"
+  ],
+  "IconResourcesKeys": [],
+  "Importance": "Medium",
+  "InterfaceAssemblyName": "Sungero.Domain.Interfaces",
+  "InterfaceNamespace": "rosa.HelpDesk",
+  "IsolatedAssemblyName": "rosa.HelpDesk.Isolated",
+  "IsolatedNamespace": "rosa.HelpDesk.Isolated",
+  "IsVisible": false,
+  "Jobs": [
+    {
+      "NameGuid": "0f635da3-7520-4c76-86e4-cd5f223046cd",
+      "Name": "SendNotificationAboutRequests",
+      "DaysOfWeekSchedule": "Friday",
+      "GenerateHandler": true,
+      "Monthly": "Weekly",
+      "MonthSchedule": "Monthly",
+      "StartAt": "1753-01-01T20:00:00"
+    }
+  ],
+  "Overridden": [
+    "IsVisible"
+  ],
+  "PublicConstants": [
+    {
+      "Name": "Duty1HelpDesk",
+      "ParentClasses": [
+        "Module"
+      ],
+      "TypeName": "System.Guid",
+      "Value": "new System.Guid(\"1d1bcaf7-c7d1-42cd-8fd8-8bd0bb428b04\")"
+    },
+    {
+      "Name": "Duty2HelpDesk",
+      "ParentClasses": [
+        "Module"
+      ],
+      "TypeName": "System.Guid",
+      "Value": "new System.Guid(\"12c7f35e-ee0b-4539-8036-0ebbf9009614\")"
+    }
+  ],
+  "PublicFunctions": [
+    {
+      "Name": "DayCount",
+      "Parameters": [
+        {
+          "Name": "createdDate",
+          "ParameterType": "global::System.Nullable<global::System.DateTime>",
+          "ParameterTypeFullName": "System.Nullable"
+        },
+        {
+          "Name": "closedDate",
+          "ParameterType": "global::System.Nullable<global::System.DateTime>",
+          "ParameterTypeFullName": "System.Nullable"
+        }
+      ],
+      "ReturnType": "global::System.Int32",
+      "ReturnTypeFullName": "System.Int32"
+    }
+  ],
+  "PublicStructures": [],
+  "ResourceInterfaceAssemblyName": "Sungero.Domain.Interfaces",
+  "ResourceInterfaceNamespace": "rosa.HelpDesk",
+  "ResourcesKeys": [],
+  "ServerAssemblyName": "rosa.HelpDesk.Server",
+  "ServerNamespace": "rosa.HelpDesk.Server",
+  "SharedAssemblyName": "rosa.HelpDesk.Shared",
+  "SharedNamespace": "rosa.HelpDesk.Shared",
+  "SpecialFolders": [],
+  "Version": "0.0.1.0",
+  "Widgets": [],
+  "Versions": [
+    {
+      "Type": "ModuleMetadata",
+      "Number": 8
+    },
+    {
+      "Type": "DomainApi",
+      "Number": 3
+    }
+  ]
+}

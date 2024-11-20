@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="sf_63fcff42_33fe_4a79_a1a4_6336a52dfe37" xml:space="preserve">
+    <value>Subscipted documents</value>
+  </data>
+  <data name="FilterPanel_Period_b9b90174fc964af9864dcb47f11e41d1" xml:space="preserve">
+    <value>Period</value>
+  </data>
+  <data name="FilterPanel_DocumentKind_ebd9fd19e34f469197943367ce7b171a" xml:space="preserve">
+    <value>Document kind</value>
+  </data>
+  <data name="sf_3f1070c4_c9b0_4666_b8ff_b3204309e76d" xml:space="preserve">
+    <value>Folderrosa</value>
+  </data>
+  <data name="sf_1481c315_138f_477c_9e9e_c947568e4d49" xml:space="preserve">
+    <value>Folder1rosa</value>
+  </data>
+  <data name="sf_45a1fbc4_5374_4e37_9f9a_4dce9c443549" xml:space="preserve">
+    <value>Folder2rosa</value>
+  </data>
+  <data name="FilterPanel_LastWeek_d573226a452d43d8aab5d0c6be6b8e31" xml:space="preserve">
+    <value>Last 7 days</value>
+  </data>
+  <data name="FilterPanel_LastMonth_28b2dd04ac824a1eaa8d701a5623c6ed" xml:space="preserve">
+    <value>Last 30 days</value>
+  </data>
+  <data name="FilterPanel_Last90Days_4f745a467a9d4971afdf33033e26b224" xml:space="preserve">
+    <value>Last 90 days</value>
+  </data>
+  <data name="FilterPanel_ManualPeriod_bf18d5b806db447b9962082578bb8dae" xml:space="preserve">
+    <value>User-defined period:</value>
+  </data>
+</root>

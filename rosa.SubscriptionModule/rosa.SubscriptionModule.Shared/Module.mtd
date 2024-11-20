@@ -1,0 +1,139 @@
+{
+  "$type": "Sungero.Metadata.ModuleMetadata, Sungero.Metadata",
+  "NameGuid": "7427e39b-9b16-4578-8669-3fc876cea2bf",
+  "Name": "SubscriptionModule",
+  "AsyncHandlers": [],
+  "ClientAssemblyName": "rosa.SubscriptionModule.Client",
+  "ClientBaseAssemblyName": "rosa.SubscriptionModule.ClientBase",
+  "ClientBaseNamespace": "rosa.SubscriptionModule.ClientBase",
+  "ClientNamespace": "rosa.SubscriptionModule.Client",
+  "Code": "Subscri",
+  "CompanyCode": "rosa",
+  "Cover": {
+    "NameGuid": "3eec7589-1dd1-43d2-972e-b60a438f2053",
+    "Actions": [],
+    "Background": null,
+    "Footer": {
+      "NameGuid": "8a59b11f-ef47-4889-88aa-3cb52a0442eb",
+      "BackgroundPosition": "Stretch"
+    },
+    "Groups": [],
+    "Header": {
+      "NameGuid": "5b737934-119e-4f6b-a8ae-641176b727d6",
+      "BackgroundPosition": "Stretch"
+    },
+    "RemoteControls": [],
+    "Tabs": []
+  },
+  "Dependencies": [
+    {
+      "Id": "28b978fe-c485-485b-853f-ac196a143f9a",
+      "IsSolutionModule": true,
+      "MaxVersion": "",
+      "MinVersion": ""
+    }
+  ],
+  "ExplorerTreeOrder": [
+    {
+      "ItemId": "9b65d5ab-855f-4435-84cc-4ace0414c242"
+    },
+    {
+      "ItemId": "c3c69bc3-d92e-4235-8fa6-c9adc9826854",
+      "PreviousItemId": "9b65d5ab-855f-4435-84cc-4ace0414c242"
+    },
+    {
+      "ItemId": "8cf596d6-32f4-43ea-ab3d-cc744d20a8e8",
+      "PreviousItemId": "c3c69bc3-d92e-4235-8fa6-c9adc9826854"
+    },
+    {
+      "ItemId": "86890f46-96d2-424b-8ff9-b475006cb0a6",
+      "PreviousItemId": "8cf596d6-32f4-43ea-ab3d-cc744d20a8e8"
+    },
+    {
+      "ItemId": "1f59e536-519d-4e94-a2eb-d01ee7b833ad",
+      "PreviousItemId": "86890f46-96d2-424b-8ff9-b475006cb0a6"
+    },
+    {
+      "ItemId": "627da160-a96d-4e13-8ab2-f5668790dea7",
+      "PreviousItemId": "1f59e536-519d-4e94-a2eb-d01ee7b833ad"
+    }
+  ],
+  "HandledEvents": [
+    "InitializingServer"
+  ],
+  "IconResourcesKeys": [],
+  "Importance": "Medium",
+  "InterfaceAssemblyName": "Sungero.Domain.Interfaces",
+  "InterfaceNamespace": "rosa.SubscriptionModule",
+  "IsolatedAssemblyName": "rosa.SubscriptionModule.Isolated",
+  "IsolatedNamespace": "rosa.SubscriptionModule.Isolated",
+  "IsVisible": false,
+  "Jobs": [
+    {
+      "NameGuid": "2f5a685d-82ca-4d64-a314-8d0cb250f131",
+      "Name": "SendSubscriptionNotification",
+      "GenerateHandler": true,
+      "MonthSchedule": "Monthly",
+      "StartAt": "1753-01-01T10:50:00"
+    }
+  ],
+  "Overridden": [
+    "IsVisible"
+  ],
+  "PublicFunctions": [
+    {
+      "Name": "CheckSubscription",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "document",
+          "ParameterType": "global::Sungero.Docflow.IOfficialDocument",
+          "ParameterTypeFullName": "Sungero.Docflow.IOfficialDocument, Sungero.Domain.Interfaces"
+        },
+        {
+          "Name": "employee",
+          "ParameterType": "global::Sungero.Company.IEmployee",
+          "ParameterTypeFullName": "Sungero.Company.IEmployee, Sungero.Domain.Interfaces"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "global::System.Boolean",
+      "ReturnTypeFullName": "System.Boolean"
+    },
+    {
+      "Name": "ClearAllSubscriptions",
+      "IsRemote": true,
+      "Parameters": [
+        {
+          "Name": "document",
+          "ParameterType": "global::Sungero.Docflow.IOfficialDocument",
+          "ParameterTypeFullName": "Sungero.Docflow.IOfficialDocument, Sungero.Domain.Interfaces"
+        }
+      ],
+      "Placement": "Shared",
+      "ReturnType": "void",
+      "ReturnTypeFullName": "System.Void"
+    }
+  ],
+  "PublicStructures": [],
+  "ResourceInterfaceAssemblyName": "Sungero.Domain.Interfaces",
+  "ResourceInterfaceNamespace": "rosa.SubscriptionModule",
+  "ResourcesKeys": [],
+  "ServerAssemblyName": "rosa.SubscriptionModule.Server",
+  "ServerNamespace": "rosa.SubscriptionModule.Server",
+  "SharedAssemblyName": "rosa.SubscriptionModule.Shared",
+  "SharedNamespace": "rosa.SubscriptionModule.Shared",
+  "SpecialFolders": [],
+  "Version": "0.0.1.0",
+  "Widgets": [],
+  "Versions": [
+    {
+      "Type": "ModuleMetadata",
+      "Number": 8
+    },
+    {
+      "Type": "DomainApi",
+      "Number": 3
+    }
+  ]
+}

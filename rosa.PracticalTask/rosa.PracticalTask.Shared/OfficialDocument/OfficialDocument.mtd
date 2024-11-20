@@ -1,0 +1,184 @@
+{
+  "$type": "Sungero.Metadata.DocumentMetadata, Sungero.Content.Shared",
+  "NameGuid": "631fcdac-9e37-4965-93fc-6e06c0ff449c",
+  "Name": "OfficialDocument",
+  "AccessRightsMode": "Both",
+  "Actions": [
+    {
+      "NameGuid": "18cdb157-e89a-488b-8cea-bce6a63d0a13",
+      "Name": "DeleteEntity",
+      "GenerateHandler": true,
+      "IsAncestorMetadata": true,
+      "NeedConfirmation": true,
+      "Overridden": [
+        "GenerateHandler"
+      ],
+      "Versions": []
+    },
+    {
+      "NameGuid": "75bbeb98-d83f-41a8-9461-7c00dd5528c7",
+      "Name": "Subscriberosa",
+      "ActionArea": "Card",
+      "GenerateHandler": true,
+      "LargeIconName": "Action_Subscriberosa_large_75bbeb98d83f41a894617c00dd5528c7.png",
+      "SmallIconName": "Action_Subscriberosa_small_75bbeb98d83f41a894617c00dd5528c7.png"
+    },
+    {
+      "NameGuid": "c3a18963-bd1a-4a31-9458-038e9126de66",
+      "Name": "Unsubscriberosa",
+      "ActionArea": "Card",
+      "GenerateHandler": true,
+      "LargeIconName": "Action_Unsubscriberosa_large_c3a18963bd1a4a319458038e9126de66.png",
+      "SmallIconName": "Action_Unsubscriberosa_small_c3a18963bd1a4a319458038e9126de66.png"
+    },
+    {
+      "NameGuid": "0bb0770d-ca5b-489e-9d83-8f2dfd0e8e34",
+      "Name": "SendForDeletionrosa",
+      "ActionArea": "Card",
+      "GenerateHandler": true,
+      "LargeIconName": null,
+      "SmallIconName": null
+    }
+  ],
+  "BaseGuid": "58cca102-1e97-4f07-b6ac-fd866a8b7cb1",
+  "CanBeNavigationPropertyType": true,
+  "CreationAreaMetadata": {
+    "NameGuid": "7322020b-3299-4fba-b9b0-4c995bd2e401",
+    "Name": "CreationArea",
+    "Buttons": [],
+    "IsAncestorMetadata": true,
+    "Versions": []
+  },
+  "ExtraSearchProperties": [],
+  "FilterPanel": {
+    "NameGuid": "80d3ce1a-9a72-443a-8b6c-6c6eef0c8d0f",
+    "Name": "FilterPanel",
+    "Controls": [],
+    "IsAncestorMetadata": true,
+    "Versions": []
+  },
+  "Forms": [
+    {
+      "$type": "Sungero.Metadata.StandaloneFormMetadata, Sungero.Metadata",
+      "NameGuid": "fa03f748-4397-42ef-bdc2-22119af7bf7f",
+      "Name": "Card",
+      "Controls": [],
+      "IsAncestorMetadata": true,
+      "Overridden": [
+        "SettingsResourceKey"
+      ],
+      "Versions": []
+    }
+  ],
+  "IconResourcesKeys": [],
+  "IsAbstract": true,
+  "LayeredFromGuid": "58cca102-1e97-4f07-b6ac-fd866a8b7cb1",
+  "OpenCardByDefaultInCollection": true,
+  "OperationsClass": "",
+  "Properties": [
+    {
+      "$type": "Sungero.Metadata.CollectionPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "56cbe741-880f-4e6f-9567-343d08494b59",
+      "Name": "Versions",
+      "EntityGuid": "9aa9c8b5-3462-4d0d-87c0-57f6be472eae",
+      "IsAncestorMetadata": true,
+      "Overridden": [
+        "EntityGuid"
+      ],
+      "Versions": []
+    },
+    {
+      "$type": "Sungero.Metadata.CollectionPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "15280407-331e-42f6-b263-041a495b66cd",
+      "Name": "Tracking",
+      "EntityGuid": "0bd30ce8-06fc-4e53-ba88-c68669b4ff80",
+      "IsAncestorMetadata": true,
+      "Overridden": [
+        "EntityGuid"
+      ],
+      "Versions": []
+    }
+  ],
+  "PublicFunctions": [
+    {
+      "Name": "ChangedDate",
+      "Parameters": [
+        {
+          "Name": "officialDocument",
+          "ParameterType": "global::rosa.PracticalTask.IOfficialDocument",
+          "ParameterTypeFullName": "rosa.PracticalTask.IOfficialDocument, Sungero.Domain.Interfaces"
+        }
+      ],
+      "Placement": "Client",
+      "ReturnType": "global::System.Nullable<global::System.DateTime>",
+      "ReturnTypeFullName": "System.Nullable"
+    }
+  ],
+  "PublicStructures": [],
+  "ResourcesKeys": [],
+  "RibbonCardMetadata": {
+    "NameGuid": "8738c907-d709-4eec-a8a7-6876de4fd264",
+    "Name": "RibbonCard",
+    "Categories": [],
+    "Elements": [
+      {
+        "$type": "Sungero.Metadata.RibbonActionButtonMetadata, Sungero.Metadata",
+        "NameGuid": "0712d38b-7399-4a2c-9362-782768e785eb",
+        "Name": "Subscriberosarosa",
+        "ActionGuid": "75bbeb98-d83f-41a8-9461-7c00dd5528c7",
+        "ButtonSize": "Large",
+        "Index": -1,
+        "ParentGuid": "cb1bdf0e-e8b3-4e17-bfec-9d6e76fe979a"
+      },
+      {
+        "$type": "Sungero.Metadata.RibbonActionButtonMetadata, Sungero.Metadata",
+        "NameGuid": "eb64198c-e7a5-475b-ac26-398dce2b298e",
+        "Name": "Unsubscriberosarosa",
+        "ActionGuid": "c3a18963-bd1a-4a31-9458-038e9126de66",
+        "ButtonSize": "Large",
+        "Index": 0,
+        "ParentGuid": "cb1bdf0e-e8b3-4e17-bfec-9d6e76fe979a"
+      },
+      {
+        "$type": "Sungero.Metadata.RibbonActionButtonMetadata, Sungero.Metadata",
+        "NameGuid": "2c7bd792-99f7-4623-ab55-93adc06ea4db",
+        "Name": "SendForDeletionrosarosa",
+        "ActionGuid": "0bb0770d-ca5b-489e-9d83-8f2dfd0e8e34",
+        "Index": 51,
+        "ParentGuid": "f3b0ddcd-9d1e-4ca3-8780-695ae25a9e8b"
+      }
+    ],
+    "Groups": [
+      {
+        "NameGuid": "cb1bdf0e-e8b3-4e17-bfec-9d6e76fe979a",
+        "Name": "Subsciption",
+        "IconName": null,
+        "Index": 31,
+        "ParentGuid": "21a31627-5f58-4416-8c4a-90f538ee2e57",
+        "SmallIconName": null
+      }
+    ],
+    "IsAncestorMetadata": true,
+    "Pages": [],
+    "RibbonKind": "Card"
+  },
+  "RibbonCollectionMetadata": {
+    "NameGuid": "6b7e4469-9ac9-4e4b-b5a2-fab42b72df7f",
+    "Name": "RibbonCollection",
+    "Categories": [],
+    "Elements": [],
+    "Groups": [],
+    "IsAncestorMetadata": true,
+    "Pages": []
+  },
+  "Versions": [
+    {
+      "Type": "DocumentMetadata",
+      "Number": 2
+    },
+    {
+      "Type": "EntityMetadata",
+      "Number": 12
+    }
+  ]
+}

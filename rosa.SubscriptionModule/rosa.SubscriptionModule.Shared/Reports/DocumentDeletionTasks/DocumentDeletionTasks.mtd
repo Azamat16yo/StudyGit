@@ -1,0 +1,55 @@
+{
+  "$type": "Sungero.Metadata.ReportMetadata, Sungero.Reporting.Shared",
+  "NameGuid": "627da160-a96d-4e13-8ab2-f5668790dea7",
+  "Name": "DocumentDeletionTasks",
+  "AssociatedGuid": "7427e39b-9b16-4578-8669-3fc876cea2bf",
+  "BaseGuid": "cef9a810-3f30-4eca-9fe3-30992af0b818",
+  "DataSources": [
+    {
+      "NameGuid": "84cadf3c-09e1-4c71-9906-9e43d2a9a0da",
+      "Name": "Tasks",
+      "EntityType": "c3c69bc3-d92e-4235-8fa6-c9adc9826854"
+    },
+    {
+      "NameGuid": "d86a9add-44b1-413e-8d23-e051a611135e",
+      "Name": "Documents",
+      "EntityType": "631fcdac-9e37-4965-93fc-6e06c0ff449c"
+    }
+  ],
+  "DefaultExportFormat": "Excel",
+  "ExportFormats": [
+    "Excel"
+  ],
+  "HandledEvents": [
+    "BeforeExecuteClient"
+  ],
+  "IconResourcesKeys": [],
+  "IntegrationServiceName": "SubscriptionModuleDocumentDeletionTasks",
+  "Overridden": [
+    "PublicConstants",
+    "PublicStructures",
+    "DataSources",
+    "Parameters",
+    "DisplayName",
+    "HandledEvents",
+    "ExportFormats",
+    "DefaultExportFormat"
+  ],
+  "Parameters": [
+    {
+      "NameGuid": "4c85329d-5292-4f67-8bfc-3de2d6e0f355",
+      "Name": "StartDate",
+      "InternalDataTypeName": "System.DateTime",
+      "IsSimpleDataType": true
+    },
+    {
+      "NameGuid": "4c86b237-1cbf-4e06-a2e7-49d949f0a8f5",
+      "Name": "EndDate",
+      "InternalDataTypeName": "System.DateTime",
+      "IsSimpleDataType": true
+    }
+  ],
+  "PublicStructures": [],
+  "ResourcesKeys": [],
+  "Versions": []
+}

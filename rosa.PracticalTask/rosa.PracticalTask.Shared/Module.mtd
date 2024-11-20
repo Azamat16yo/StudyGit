@@ -1,0 +1,66 @@
+{
+  "$type": "Sungero.Metadata.SolutionMetadata, Sungero.Metadata",
+  "NameGuid": "28b978fe-c485-485b-853f-ac196a143f9a",
+  "Name": "PracticalTask",
+  "AsyncHandlers": [],
+  "ClientAssemblyName": "rosa.PracticalTask.Client",
+  "ClientBaseAssemblyName": "rosa.PracticalTask.ClientBase",
+  "ClientBaseNamespace": "rosa.PracticalTask.ClientBase",
+  "ClientNamespace": "rosa.PracticalTask.Client",
+  "Code": "Practic",
+  "CompanyCode": "rosa",
+  "Cover": {
+    "NameGuid": "f3c44798-1356-484c-8494-3b52b4b65741",
+    "Actions": [],
+    "Background": null,
+    "Footer": {
+      "NameGuid": "eb6d08d3-11b0-429c-8d08-9dd1d1faf01c",
+      "BackgroundPosition": "Stretch"
+    },
+    "Groups": [],
+    "Header": {
+      "NameGuid": "117d5880-02a2-49b3-8038-85573ca83138",
+      "BackgroundPosition": "Stretch"
+    },
+    "RemoteControls": [],
+    "Tabs": []
+  },
+  "DesktopViews": [],
+  "ExplorerTreeOrder": [
+    {
+      "ItemId": "631fcdac-9e37-4965-93fc-6e06c0ff449c"
+    }
+  ],
+  "IconResourcesKeys": [],
+  "Importance": "Medium",
+  "InterfaceAssemblyName": "Sungero.Domain.Interfaces",
+  "InterfaceNamespace": "rosa.PracticalTask",
+  "IsolatedAssemblyName": "rosa.PracticalTask.Isolated",
+  "IsolatedNamespace": "rosa.PracticalTask.Isolated",
+  "OrderedSpecialFolders": [],
+  "PublicStructures": [],
+  "ResourceInterfaceAssemblyName": "Sungero.Domain.Interfaces",
+  "ResourceInterfaceNamespace": "rosa.PracticalTask",
+  "ResourcesKeys": [],
+  "ServerAssemblyName": "rosa.PracticalTask.Server",
+  "ServerNamespace": "rosa.PracticalTask.Server",
+  "SharedAssemblyName": "rosa.PracticalTask.Shared",
+  "SharedNamespace": "rosa.PracticalTask.Shared",
+  "SpecialFolders": [],
+  "Version": "0.0.1.0",
+  "Widgets": [],
+  "Versions": [
+    {
+      "Type": "SolutionMetadata",
+      "Number": 8
+    },
+    {
+      "Type": "ModuleMetadata",
+      "Number": 8
+    },
+    {
+      "Type": "DomainApi",
+      "Number": 3
+    }
+  ]
+}

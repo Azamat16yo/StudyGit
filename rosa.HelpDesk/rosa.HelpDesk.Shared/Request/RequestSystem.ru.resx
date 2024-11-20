@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Property_Name" xml:space="preserve">
+    <value>Тема</value>
+  </data>
+  <data name="ControlGroup_e6c5396904ac40d5a65e0158f487fff4" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ControlGroup_9d43d523eb194c3cbc60993ac3136d66" xml:space="preserve">
+    <value>Общая информация</value>
+  </data>
+  <data name="ControlGroup_b85ff9ea32a641b29b523d468bf79281" xml:space="preserve">
+    <value>Общение</value>
+  </data>
+  <data name="Form_ad16d1e065794cb988652b2262eea0fa" xml:space="preserve">
+    <value>Отметка работ по обращению</value>
+  </data>
+  <data name="DisplayName" xml:space="preserve">
+    <value>Обращение</value>
+  </data>
+  <data name="AccusativeDisplayName" xml:space="preserve">
+    <value>Обращение</value>
+  </data>
+  <data name="CollectionDisplayName" xml:space="preserve">
+    <value>Обращение</value>
+  </data>
+  <data name="Ribbon_RequestActions_0bf7e47dcfc040fbaf3816bf801dcc2b" xml:space="preserve">
+    <value>Действия с обращением</value>
+  </data>
+  <data name="FilterPanel_State_536eec6aa0ca4e9185edc20ab6fb818a" xml:space="preserve">
+    <value>Состояние</value>
+  </data>
+  <data name="FilterPanel_RequestKind_585afb7a48e94cf9a70d08c61236e3b9" xml:space="preserve">
+    <value>Вид обращения</value>
+  </data>
+  <data name="FilterPanel_FlagInternalRequest_f262c67dd996401aa6f4c81774d03700" xml:space="preserve">
+    <value>Внутренние обращения</value>
+  </data>
+  <data name="FilterPanel_FlagExternalRequest_bf3713951da240b6b8f23e7f42e8c46a" xml:space="preserve">
+    <value>Внешние обращения</value>
+  </data>
+  <data name="FilterPanel_FlagAllRequests_3471dd22d34f43489dd947aaeb76bfb0" xml:space="preserve">
+    <value>Все обращения</value>
+  </data>
+</root>
