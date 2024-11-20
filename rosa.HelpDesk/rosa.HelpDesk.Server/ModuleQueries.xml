@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<queries>
+  <query key="TestQuery">
+    <default><![CDATA[SELECT id, discriminator, entityversion, secureobject, status, name, "number", description, createddate, closeddate, requestkind, responsible, lifecycle, result, communication, sumofhours, company, contact, author
+	FROM public.rosa_helpdes_request
+	WHERE discriminator = @request.]]></default>
+  </query>
+</queries>

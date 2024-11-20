@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DisplayName" xml:space="preserve">
+    <value>HelpDesk task</value>
+  </data>
+  <data name="AccusativeDisplayName" xml:space="preserve">
+    <value>HelpDesk task</value>
+  </data>
+  <data name="CollectionDisplayName" xml:space="preserve">
+    <value>HelpDesk tasks</value>
+  </data>
+  <data name="Property_RequestKind" xml:space="preserve">
+    <value>Тип обращения</value>
+  </data>
+  <data name="Resource_035869ed2baa4573bdfe9e4f5e10c4b3" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Control_035869ed2baa4573bdfe9e4f5e10c4b3_EmptyText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Resource_74e85eafe5944dc5b4724e791948b781" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Control_74e85eafe5944dc5b4724e791948b781_EmptyText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Resource_679cef60166e482cbfa7a1ec861f0263" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Control_679cef60166e482cbfa7a1ec861f0263_EmptyText" xml:space="preserve">
+    <value>Specify observers…</value>
+  </data>
+  <data name="Block_48aba457dc0143b2b3522eedf06ae09b" xml:space="preserve">
+    <value>Request creating</value>
+  </data>
+  <data name="Block_78705a4dbf9c4f289359edbcfef6aedb" xml:space="preserve">
+    <value>Request assignment</value>
+  </data>
+  <data name="Block_6c1a6bce1e224e1b807f566685d00e86" xml:space="preserve">
+    <value> Review Request Assignment</value>
+  </data>
+  <data name="AttachmentGroup_AttachmentGroupRequestTitle" xml:space="preserve">
+    <value>Request</value>
+  </data>
+  <data name="AttachmentGroup_AttachmentGroupRequestInformationMessage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Block_48aba457dc0143b2b3522eedf06ae09b_Property_57d76dadb1fb4d9c8416a1426171e87a" xml:space="preserve">
+    <value>Ответственный за обращение</value>
+  </data>
+  <data name="Block_b6874719db054a2bbaa10ee618789d38" xml:space="preserve">
+    <value>Установка ЖЦ обращения</value>
+  </data>
+  <data name="Block_b6874719db054a2bbaa10ee618789d38_Property_54273a91c6d2461d8dcd21e313216900" xml:space="preserve">
+    <value>Перечисление жизненного цикла</value>
+  </data>
+  <data name="Block_b6874719db054a2bbaa10ee618789d38_Property_54273a91c6d2461d8dcd21e313216900_Enum_02783488ac994be58a73fb82f9ea9efd" xml:space="preserve">
+    <value>Закрыто</value>
+  </data>
+  <data name="Block_b6874719db054a2bbaa10ee618789d38_Property_54273a91c6d2461d8dcd21e313216900_Enum_7168bec20403448f988c49d7e7c05e0b" xml:space="preserve">
+    <value>На контроле</value>
+  </data>
+  <data name="Block_b6874719db054a2bbaa10ee618789d38_Property_54273a91c6d2461d8dcd21e313216900_Enum_608606181e7044f1a33beb98129fd3f8" xml:space="preserve">
+    <value>В работе</value>
+  </data>
+</root>

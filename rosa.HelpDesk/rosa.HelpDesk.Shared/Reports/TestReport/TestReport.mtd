@@ -1,0 +1,22 @@
+{
+  "$type": "Sungero.Metadata.ReportMetadata, Sungero.Reporting.Shared",
+  "NameGuid": "71cc4a5a-a6ac-48dd-9131-ed4033be7dab",
+  "Name": "TestReport",
+  "AssociatedGuid": "fe2cf533-5224-427f-9c47-6febbbc2d6ea",
+  "BaseGuid": "cef9a810-3f30-4eca-9fe3-30992af0b818",
+  "DataSources": [],
+  "DefaultExportFormat": "Pdf",
+  "ExportFormats": [
+    "Pdf"
+  ],
+  "IconResourcesKeys": [],
+  "IntegrationServiceName": "HelpDeskTestReport",
+  "Overridden": [
+    "PublicConstants",
+    "PublicStructures"
+  ],
+  "Parameters": [],
+  "PublicStructures": [],
+  "ResourcesKeys": [],
+  "Versions": []
+}

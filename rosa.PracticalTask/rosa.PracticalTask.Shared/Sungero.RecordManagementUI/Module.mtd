@@ -11,11 +11,6 @@
   "CompanyCode": "Sungero",
   "ExplorerTreeOrder": [
     {
-      "IsAncestorMetadata": true,
-      "ItemId": "95af409b-83fe-4697-a805-5a86ceec33f5",
-      "PreviousItemId": "f5f104fb-52e4-422b-9de1-a36937d85a2d"
-    },
-    {
       "ItemId": "63fcff42-33fe-4a79-a1a4-6336a52dfe37",
       "PreviousItemId": "bd7ced8f-379e-4cda-9f18-a28193b8d53b"
     }

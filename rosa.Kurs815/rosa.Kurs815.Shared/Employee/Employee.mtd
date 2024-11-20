@@ -1,0 +1,177 @@
+{
+  "$type": "Sungero.Metadata.EntityMetadata, Sungero.Metadata",
+  "NameGuid": "597f28c9-ce3a-4b76-b70a-9c50b47bace0",
+  "Name": "Employee",
+  "Actions": [
+    {
+      "NameGuid": "e865ed75-815e-487f-9eaf-52eb9382bc87",
+      "Name": "EmpoyeeRequestsrosa",
+      "ActionArea": "Card",
+      "GenerateHandler": true,
+      "LargeIconName": null,
+      "SmallIconName": null
+    }
+  ],
+  "BaseGuid": "b7905516-2be5-4931-961c-cb38d5677565",
+  "CanBeNavigationPropertyType": true,
+  "CreationAreaMetadata": {
+    "NameGuid": "4ba97f9c-bea5-4b13-aef1-b6fd5e5f2d64",
+    "Name": "CreationArea",
+    "Buttons": [],
+    "IsAncestorMetadata": true,
+    "Versions": []
+  },
+  "EntityStyleSelectors": [
+    {
+      "NameGuid": "37ddffc8-a3f6-46cf-801e-86808d453a0e",
+      "Name": "StyleForDismissedEmployeesrosa",
+      "Conditions": [
+        {
+          "NameGuid": "09246e8c-3da0-46e9-91b4-4dd8430da3c0",
+          "LeftSideGuid": "1dcedc29-5140-4770-ac92-eabc212326a1",
+          "RightSide": "Closed"
+        }
+      ],
+      "Style": {
+        "NameGuid": "e3935dcb-7c0d-467c-b91a-730bedc0f198",
+        "IsStrikethrough": true
+      }
+    },
+    {
+      "NameGuid": "9478bcbc-5d0c-4e0d-be9b-9e1b49c7d2dc",
+      "Name": "StyleForEmployeesWithoutLoginsrosa",
+      "Conditions": [
+        {
+          "NameGuid": "632dde3f-672a-494e-8b2d-b783d2039e0a",
+          "LeftSideGuid": "1dcedc29-5140-4770-ac92-eabc212326a1",
+          "RightSide": "Active"
+        },
+        {
+          "NameGuid": "0ad93313-b138-4ce1-965e-c116accd0c88",
+          "ComparisonType": "Null",
+          "LeftSideGuid": "ec995492-bf5b-4ab7-b849-85c3e8b65d98"
+        }
+      ],
+      "PreviousStyleSelectorGuid": "37ddffc8-a3f6-46cf-801e-86808d453a0e",
+      "Style": {
+        "NameGuid": "de2a8061-c5db-4ae5-bc9c-695987d353b7",
+        "ForegroundBrushName": "MagentaEntityColor"
+      }
+    }
+  ],
+  "ExtraSearchProperties": [],
+  "FilterPanel": {
+    "NameGuid": "b0125fbd-3b91-4dbb-914a-689276216404",
+    "Name": "FilterPanel",
+    "Controls": [
+      {
+        "$type": "Sungero.Metadata.FilterNavigationMetadata, Sungero.Metadata",
+        "NameGuid": "62eec1c2-084c-4f54-b156-da6d344f80ab",
+        "Name": "BusinessUnit",
+        "IsAncestorMetadata": true,
+        "Overridden": [
+          "FilteringPropertyNames"
+        ],
+        "ParentGuid": "69a555af-ffe2-4464-9176-0df729878c3f",
+        "Versions": []
+      },
+      {
+        "$type": "Sungero.Metadata.FilterNavigationMetadata, Sungero.Metadata",
+        "NameGuid": "1f3de195-0f9b-47c2-b77d-dce7eca39158",
+        "Name": "Department",
+        "IsAncestorMetadata": true,
+        "Overridden": [
+          "FilteringPropertyNames"
+        ],
+        "ParentGuid": "ad4c6554-46db-44b4-9498-f11167e67e27",
+        "Versions": []
+      },
+      {
+        "$type": "Sungero.Metadata.FilterNavigationMetadata, Sungero.Metadata",
+        "NameGuid": "c4e19d7b-ad56-4093-a7c4-2c61f96178d1",
+        "Name": "JobTitle",
+        "IsAncestorMetadata": true,
+        "Overridden": [
+          "FilteringPropertyNames"
+        ],
+        "ParentGuid": "60b0ca07-d02d-4343-a410-7a2e43c0c95b",
+        "Versions": []
+      }
+    ],
+    "IsAncestorMetadata": true,
+    "Versions": []
+  },
+  "IconResourcesKeys": [],
+  "LayeredFromGuid": "b7905516-2be5-4931-961c-cb38d5677565",
+  "OperationsClass": "",
+  "Properties": [
+    {
+      "$type": "Sungero.Metadata.EnumPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "1dcedc29-5140-4770-ac92-eabc212326a1",
+      "Name": "Status",
+      "IsAncestorMetadata": true,
+      "IsLoadEagerly": true,
+      "Overridden": [
+        "IsLoadEagerly"
+      ],
+      "Versions": []
+    },
+    {
+      "$type": "Sungero.Metadata.NavigationPropertyMetadata, Sungero.Metadata",
+      "NameGuid": "ec995492-bf5b-4ab7-b849-85c3e8b65d98",
+      "Name": "Login",
+      "IsAncestorMetadata": true,
+      "IsLoadEagerly": true,
+      "Overridden": [
+        "IsLoadEagerly"
+      ],
+      "Versions": []
+    }
+  ],
+  "PublicStructures": [],
+  "ResourcesKeys": [],
+  "RibbonCardMetadata": {
+    "NameGuid": "ff14b6af-616e-40b3-8afd-86cd43705bd2",
+    "Name": "RibbonCard",
+    "Categories": [],
+    "Elements": [
+      {
+        "$type": "Sungero.Metadata.RibbonActionButtonMetadata, Sungero.Metadata",
+        "NameGuid": "3f627611-60ce-4c97-8abb-0c48ee3773e6",
+        "Name": "EmpoyeeRequestsrosarosa",
+        "ActionGuid": "e865ed75-815e-487f-9eaf-52eb9382bc87",
+        "ButtonSize": "Large",
+        "Index": -1,
+        "ParentGuid": "c3b71917-5d55-4158-a6c2-cd06e0e8dbb8"
+      }
+    ],
+    "Groups": [
+      {
+        "NameGuid": "c3b71917-5d55-4158-a6c2-cd06e0e8dbb8",
+        "Name": "SupportGroup",
+        "IconName": null,
+        "Index": 34,
+        "ParentGuid": "21a31627-5f58-4416-8c4a-90f538ee2e57",
+        "SmallIconName": null
+      }
+    ],
+    "IsAncestorMetadata": true,
+    "Pages": [],
+    "RibbonKind": "Card"
+  },
+  "RibbonCollectionMetadata": {
+    "NameGuid": "eba1eaea-c5bd-426e-b3f4-23edc7179711",
+    "Name": "RibbonCollection",
+    "Categories": [],
+    "Elements": [],
+    "Groups": [],
+    "IsAncestorMetadata": true,
+    "Pages": []
+  },
+  "Versions": [
+    {
+      "Type": "EntityMetadata",
+      "Number": 12
+    }
+  ]
+}
